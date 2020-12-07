@@ -1,0 +1,265 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  /* color: #14274e; */
+  font-weight: bolder;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  width: 20%;
+}
+
+label {
+  display: inline-block;
+  width: 5em;
+}
+
+.ui-menu {
+  width: 150px;
+}
+
+.fontSTD_Body {
+  font-family: 'Montserrat', sans-serif; /*overrides ui-widget default */
+  font-size: 1rem;
+}
+
+
+/* CONTAINER SECTION */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* SECTION BACKGROUND COLORS */
+.sectionColorNav {
+  background-color: #fcf8ec;
+}
+
+.sectionColorLight {
+  background-color: #d0e8f2;
+}
+
+.sectionColorDark {
+  background-color: #79a3b1;
+}
+
+.sectionColorFooter {
+  background-color: #456268;
+}
+
+.colorFont_STD {
+  color: #14274e;
+}
+
+.colorFont_Footer {
+  color: #f1f6f9;
+}
+
+
+/* NAV SECTION */
+#navbarTogglerDemo02 .badge_test {
+  font-size: 1rem;
+}
+
+#section_Nav .container-fluid {
+  padding: 1% 7% 0;
+}
+
+.badge {
+  margin: 2px;
+}
+
+.section_Nav {
+  font-family: 'Syne Mono', monospace;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+
+/* TITLE SECTION */
+#fontTitle1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#fontTitle2 {
+  font-family: 'Syne', sans-serif;
+  color: red;
+}
+
+#section_Title .container-fluid {
+  padding: 5% 15% 7%;
+  text-align: left;
+}
+
+#section_Title .row {
+  margin: 30px auto;
+}
+
+.controller {
+  width: 85%;
+  position: absolute;
+}
+
+.fontProperty_Title {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.section_Title {
+  margin-top: 30px;
+}
+
+
+
+/* PROJECT OVERVIEW SECTION */
+#accordion {
+  margin: auto;
+  padding: 3% 0;
+  width: 40%;
+}
+
+#section_ProjectScope {
+  position: relative;
+  z-index: 1;
+}
+
+.section_ProjectScope {
+  padding: 4%;
+}
+
+.sub_Head {
+  font-style: oblique;
+}
+
+
+
+/* IMAGE SWAP SECTION */
+#imgSwap_Description {
+  margin: auto;
+  font-style: oblique;
+}
+
+#main_ImageSwap {
+  width: 30%;
+}
+
+#section_ImageSwap ul {
+  padding-left: 0;
+}
+
+.section_ImageSwap {
+  text-align: center;
+  padding: 7% 3%;
+}
+
+.section_ImageSwap li {
+  display: inline;
+}
+
+.img_Thumbnail {
+  width: 7%;
+}
+
+
+
+/* IMAGE ROLLOVER SECTION */
+#section_ImageRollover img {
+  width: 75%;
+  margin: auto;
+}
+
+#section_ImageRollover h1, h3 {
+  text-align: center;
+}
+
+.section_ImageRollover {
+  padding: 7% 3%;
+}
+
+
+
+/* ONLINE API SECTION */
+.section_OnlineAPI {
+  text-align: center;
+  padding: 7% 3%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.row_ISS {
+  padding: 0 20%;
+}
+
+
+
+/* OTHER JQUERY WIDGETS SECTION */
+#section_jQueryWidgets {
+  padding: 7% 3%;
+}
+
+#tabs {
+  width: 50%;
+  margin: auto;
+}
+
+#widget_DatePicker {
+  text-align: center;
+}
+
+#datepicker {
+  text-align: center;
+}
+
+#widget_Menu {
+  width: 70%;
+  font-size: .75rem;
+}
+
+#widget_Dialog {
+  text-align: center;
+}
+
+#dialog p {
+  font-size: .75rem;
+}
+
+#section_jQueryWidgets .fontSTD_Body {
+  font-style: oblique;
+  font-size: .85rem;
+  padding-top: 3%;
+}
+
+#section_jQueryWidgets img {
+  padding: 0 2%;
+  width: 25%;
+}
+
+.dialog_Text {
+  font-size: .75rem;
+}
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+.section_Footer {
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+}

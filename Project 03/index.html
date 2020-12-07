@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Growing Up Nintendo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Syne+Mono&family=Raleway&family=Shadows+Into+Light&family=Lato:wght@700&family=Coda+Caption:wght@800&family=Lexend+Tera&family=Questrial&family=Syne:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
+
+  <!-- JS + jQUERY SCRIPTS -->
+  <!-- jquery uncompressed -->
+  <!-- <script src="js/jquery.js"></script> -->
+  <!-- jquery CDN uncompressed -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+  <!-- jquery UI minified -->
+  <!-- <script src="js/jquery-ui.min.js"></script> -->
+  <!-- jquery UI CDN minified -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+
+
+  <!-- BootStrap Scripts   -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+  <!-- NAV SECTION -->
+  <section id="section_Nav" class="section_Nav sectionColorNav">
+    <div class="container-fluid">
+      <div class="nav_Fixed">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand">CIS 1440: Project_03</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="navbarTogglerDemo02" class="collapse navbar-collapse fontNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="badge badge-dark badge_test" href="#section_ProjectScope">Accodion</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="badge badge-dark badge_test" href="#section_ImageSwap">Image Swap</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="badge badge-dark badge_test" href="#section_ImageRollover">Image Rollover</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="badge badge-dark badge_test" href="#section_OnlineAPI">Online API</a></li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="badge badge-dark badge_test" href="#section_jQueryWidgets">jQuery Widgets</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- TITLE SECTION -->
+  <section id="section_Title" class="section_Title sectionColorNav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1 id="fontTitle1" class="fontProperty_Title colorFont_STD">GROWING UP</h1>
+          <h1 id="fontTitle2" class="fontProperty_Title">Nintendo</h1>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-8">
+          <img class="controller" src="images/Controller_05.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PROJECT OVERVIEW SECTION -->
+  <section id="section_ProjectScope" class="section_ProjectScope sectionColorLight">
+    <div id="accordion">
+      <h3>Project Scope</h3>
+      <div>
+        <p class="sub_Head">jQuery Widget: The Accordion</p>
+        <p class="fontSTD_Body">Each section will display the knowledge learned in this Fall 2020 Semester of CIS 1440: JavaScript.</p>
+      </div>
+      <h3>Mega Man Series</h3>
+      <div>
+        <p class="sub_Head">Image Swap</p>
+        <p class="fontSTD_Body">Click on a thumbnail to display the title and year, Mega Man box artwork, and the Nintendo Power Rating</p>
+      </div>
+      <h3>Nintendo Power Magazine</h3>
+      <div>
+        <p class="sub_Head">Image Rollover</p>
+        <p class="fontSTD_Body">Magazine images will change when rolling the mouse over the image. The images will display the magazine cover by default, and triggering the event action will display the first page in the magazine of the cover game.</p>
+      </div>
+      <h3>International Space Station Live Data</h3>
+      <div>
+        <p class="sub_Head">Online API</p>
+        <p class="fontSTD_Body">Fetching an Online API, live data for the International Space Station is displayed. This content refreshes every two seconds and includes altitude, latitude, longitude, and velocity.</p>
+      </div>
+      <h3>Other jQuery Widgets</h3>
+      <div>
+        <p class="sub_Head">jQuery Widgets</p>
+        <p class="fontSTD_Body">A further example of three additional jQuery widgets.</p>
+        <ul class="fontSTD_Body">
+          <li>Tabs</li>
+          <li>Date Picker</li>
+          <li>Menu</li>
+          <li>Dialog Box</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- IMAGE SWAP SECTION -->
+  <section id="section_ImageSwap" class="section_ImageSwap sectionColorDark colorFont_STD">
+    <h1>Mega Man Series</h1>
+    <p class="fontSTD_Body">Click on an image to enlarge</p>
+    <ul id="list_ImageSwap">
+      <li><a href="images/game_MegaMan1.png" title="Mega Man (1987)" titleScore="4.1 / 5.0">
+          <img src="images/game_MegaMan1.png" alt="" class="img_Thumbnail"></a></li>
+      <li><a href="images/game_MegaMan2.png" title="Mega Man 2 (1988)" titleScore="4.9 / 5.0">
+          <img src="images/game_MegaMan2.png" alt="" class="img_Thumbnail"></a></li>
+      <li><a href="images/game_MegaMan3.png" title="Mega Man 3 (1990)" titleScore="4.0 / 5.0">
+          <img src="images/game_MegaMan3.png" alt="" class="img_Thumbnail"></a></li>
+      <li><a href="images/game_MegaMan4.png" title="Mega Man 4 (1991)" titleScore="3.9 / 5.0">
+          <img src="images/game_MegaMan4.png" alt="" class="img_Thumbnail"></a></li>
+      <li><a href="images/game_MegaMan5.png" title="Mega Man 5 (1992)" titleScore="3.8 / 5.0">
+          <img src="images/game_MegaMan5.png" alt="" class="img_Thumbnail"></a></li>
+      <li><a href="images/game_MegaMan6.png" title="Mega Man 6 (1993)" titleScore="3.6 / 5.0">
+          <img src="images/game_MegaMan6.png" alt="" class="img_Thumbnail"></a></li>
+    </ul>
+    <h2 id="caption_ImageSwap">Mega Man (1987)</h2>
+    <p>
+      <img id="main_ImageSwap" src="images/game_MegaMan1.png" alt="">
+    </p>
+    <p id="imgSwap_Description" class="fontSTD_Body">Nintendo Power Rating: 4.1 / 5.0</p>
+  </section>
+
+
+
+  <!-- IMAGE ROLLOVER SECTION -->
+  <section id="section_ImageRollover" class="section_ImageRollover sectionColorLight colorFont_STD">
+    <h1>Nintendo Power Magazine</h1>
+    <h3>The Official Childhood Cheat-Code Magazine</h3>
+    <div class="row row_Rollover">
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_001">
+          <a><img src="images/np_001.png" alt="" id="images/np_001A.png" class="img_Rollover"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_002">
+          <a><img src="images/np_002.png" alt="" id="images/np_002A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_003">
+          <a><img src="images/np_003.png" alt="" id="images/np_003A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_004">
+          <a><img src="images/np_004.png" alt="" id="images/np_004A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_005">
+          <a><img src="images/np_005.png" alt="" id="images/np_005A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_006">
+          <a><img src="images/np_006.png" alt="" id="images/np_006A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_007">
+          <a><img src="images/np_007.png" alt="" id="images/np_007A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_008">
+          <a><img src="images/np_008.png" alt="" id="images/np_008A.png"></a>
+        </ul>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-6">
+        <ul id="np_011">
+          <a><img src="images/np_011.png" alt="" id="images/np_011A.png"></a>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- XMLHTTPREQUEST/ONLINE API SECTION -->
+  <section id="section_OnlineAPI" class="section_OnlineAPI sectionColorDark colorFont_STD">
+    <h1>Online API</h1>
+    <div>
+      <h3>International Space Station Data</h3>
+      <p>Non-Nintendo Related but Equally Interesting</p>
+      <div class="row row_ISS">
+        <div class="feature-box col-lg-3 col-md-6">
+          <h3>Latitude</h3>
+          <p id="lat"></p>
+        </div>
+        <div class="feature-box col-lg-3 col-md-6">
+          <h3>Longitude</h3>
+          <p id="lon"></p>
+        </div>
+        <div class="feature-box col-lg-3 col-md-6">
+          <h3>Altitude</h3>
+          <p id="alt"></p>
+        </div>
+        <div class="feature-box col-lg-3 col-md-6">
+          <h3>Velocity</h3>
+          <p id="vel"></p>
+        </div>
+      </div>
+      <script>
+        setInterval;
+      </script>
+    </div>
+  </section>
+
+
+
+  <!-- OTHER JQUERY WIDGETS SECTION -->
+  <section id="section_jQueryWidgets" class="sectionColorLight colorFont_STD">
+    <h1>Additional jQuery Widgets</h1>
+    <div id="tabs">
+      <ul>
+        <li><a href="#widget_DatePicker">Date Picker</a></li>
+        <li><a href="#widget_Menu">Menu</a></li>
+        <li><a href="#widget_Dialog">Dialog Box</a></li>
+      </ul>
+      <div id="widget_DatePicker">
+        <p>Date: <input type="text" id="datepicker"></p>
+      </div>
+      <div id="widget_Menu">
+        <ul id="menu">
+          <li>
+            <div>Action</div>
+            <ul>
+              <li>
+                <div>Single Player</div>
+                <ul>
+                  <li>
+                    <div>CastleVania</div>
+                  </li>
+                  <li>
+                    <div>Mega Man 2</div>
+                  </li>
+                  <li>
+                    <div>Ninja Gaiden</div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div>Multi-Player</div>
+                <ul>
+                  <li>
+                    <div>Contra</div>
+                  </li>
+                  <li>
+                    <div>Double Dragon</div>
+                  </li>
+                  <li>
+                    <div>TMNT II</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>Adventure</div>
+            <ul>
+              <li>
+                <div>Metal Gear</div>
+              </li>
+              <li>
+                <div>Metroid</div>
+              </li>
+              <li>
+                <div>The Adventure of Link</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>Sports</div>
+            <ul>
+              <li>
+                <div>Blades of Steel</div>
+              </li>
+              <li>
+                <div>Double Dribble</div>
+              </li>
+              <li>
+                <div>Excite Bike</div>
+              </li>
+              <li>
+                <div>Mike Tyson's Punch-Out</div>
+              </li>
+              <li>
+                <div>RBI Baseball 2</div>
+              </li>
+              <li>
+                <div>R.C. Pro Am</div>
+              </li>
+              <li>
+                <div>Skate or Die</div>
+              </li>
+              <li>
+                <div>T&C Surf Design</div>
+              </li>
+              <li>
+                <div>Tecmo Super Bowl</div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="widget_Dialog">
+        <a id="game_Zelda" title="Click Game for Additional Info"><img src="images/game_Link.png" alt=""/></a>
+        <div id="dialog1" title="Zelda II" style="display:none;">
+          <p class="dialog_Text">It does not get any better on the original Nintendo. Zelda II: The Adventure of Link was a game that provided it all on this original console. From a top down view, to a side scroller, to maps galore, puzzles, difficult if not near-impossible boss fights at times. This game spawned a series that would continue for the next 30+ years. And that gold cartridge... When this game was pulled out of its sleeve, it truly did feel like an adventure.</p>
+        </div>
+
+        <a id="game_Tecmo" title="Click Game for Additional Info"><img src="images/game_TecmoSBowl.png" alt=""/></a>
+        <div id="dialog2" title="Tecmo Super Bowl" style="display:none;">
+          <p class="dialog_Text">Tecmo Super Bowl had it all: all teams, an interchangeable roster, a full season, all the stats you can imagine, and Bo Jackson! Overnight stays were common when friends came together to play out an entire season and face off against each other in the Super Bowl. This game truly introduced millions of kids to the game of football, and in their later years of adulthood, a Madden Football addiction.</p>
+        </div>
+
+        <a id="game_RcProAm" title="Click Game for Additional Info"><img src="images/game_RCProAm.png" alt=""/></a>
+        <p class="fontSTD_Body">Click on a Game to Display the Dialog Box</p>
+        <div id="dialog3" title="R.C. Pro-Am" style="display:none;">
+          <p class="dialog_Text">R.C. Pro-Am was a racing game on the original Nintendo. Unlike prior racing games like Pole Position on the Atari 2600, and numerous copycat games that followed, RC ProAm gave the player 32 tracks, power-ups and a true challenge. It can be argued that this game laid the foundation to the massively popular racing series, Mario Kart. What it does not get credit for is the thirst it caused for more racing; which other popular racing series like Gran Turismo and Forza Racing have benefitted from in the older gamers who first started with RC ProAm on the original Nintendo.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER SECTION -->
+  <footer class="section_Footer sectionColorLight colorFont_STD">
+    <div class="container-fluid">
+      <p class="footer-p">Shaun Hardy | CIS 1440: JavaScript | Project_03 | 06-Dec-2020</p>
+    </div>
+  </footer>
+</body>
+</html>
